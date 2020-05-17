@@ -1,0 +1,67 @@
+{
+  "forms": {
+    "byId": {
+      "1": {
+        "title": "You chose well. Fill in your details to win!",
+        "fields": ["userName", "email"],
+        "submitUrl": "/api/endpoint/1",
+        "cancelUrl": "/menu/1"
+      }
+    },
+    "allIds": ["1"]
+  },
+  "fields": {
+    "byId": {
+      "userName": {
+        "label": "Name",
+        "type": "text",
+        "required": true,
+        "dataParse": "uppercase"
+      },
+      "email": {
+        "label": "Email",
+        "type": "email",
+        "required": true
+      }
+    },
+    "allIds": ["userName", "email"]
+  },
+  "menus": {
+    "byId": {
+      "1": {
+        "title": "Want to win $5000 with Afterpay?",
+        "buttons": ["1", "2", "3"]
+      },
+      "2": {
+        "title": "That's odd. Tell us why!",
+        "buttons": ["4", "5"]
+      }
+    },
+    "allIds": ["1", "2"]
+  },
+  "buttons": {
+    "byId": {
+      "1": {
+        "label": "Hell yes!",
+        "url": "/form/1"
+      },
+      "2": {
+        "label": "Maybe",
+        "url": "/menu/2"
+      },
+      "3": {
+        "label": "Nope",
+        "url": "/nope"
+      },
+      "4": {
+        "label": "I'm rich",
+        "url": "/nope"
+      },
+      "5": {
+        "label": "I think this a scam",
+        "url": "/nope"
+      }
+    },
+    "allIds": ["1", "2", "3", "4", "5"]
+  }
+}
