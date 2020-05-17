@@ -15,10 +15,8 @@ Open a terminal and cd to the root of the project and run:
 yarn
 ```
 
-Go to the ios folder and run:
+You're ready to go
 
 ```
 yarn start
 ```
-
-You are ready to win!
