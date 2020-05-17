@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My App component should render app without error  1`] = `
+<div>
+  <div
+    class="makeStyles-root-1"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthSm"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-direction-xs-column MuiGrid-justify-xs-center"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <h1
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+          >
+            Want to win $5000 with Afterpay?
+          </h1>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <a
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+            href="/form/1"
+            tabindex="0"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Hell yes!
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <a
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+            href="/menu/2"
+            tabindex="0"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Maybe
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <a
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+            href="/nope"
+            tabindex="0"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Nope
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
