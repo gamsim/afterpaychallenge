@@ -1,6 +1,6 @@
-# Afterpay Challenge
+# Menus and forms
 
-This challenge uses:
+This project uses:
 
 - [x] React
 - [x] React Router Dom
